@@ -115,7 +115,7 @@ function $filter({filters, options, params}) {
         Object.assign(filters, params.filters);
     }
     if (params.options) {
-        Object.assign(filters, params.options)
+        Object.assign(options, params.options)
     }
 }
 ```
